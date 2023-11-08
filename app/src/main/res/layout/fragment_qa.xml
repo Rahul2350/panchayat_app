@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.QAFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 1) What is a gram panchayat?
+" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A gram panchayat is a local government body in rural areas of India. It is responsible for providing various civic amenities, such as water supply, sanitation, and infrastructure development, in the village or group of villages under its jurisdiction.
+
+" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 2) What are the functions of a gram panchayat?
+
+" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The functions of a gram panchayat include:
+
+
+" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maintenance of roads, bridges, and other public infrastructure
+
+
+" /><TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Provision of safe drinking water and sanitation facilities
+
+
+
+" /><TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maintenance of public health and hygiene
+
+
+
+" /><TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Collection of taxes and fees, and management of finances
+
+
+
+" /><TextView
+        android:id="@+id/textView713"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Promotion of agriculture, animal husbandry, and other rural livelihoods
+
+
+
+" /><TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Implementation of rural development programs and poverty alleviation schemes
+
+" />
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How is a gram panchayat formed?
+
+
+" /><TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A gram panchayat is formed through the election of members by the people of the village or group of villages under its jurisdiction. The members, known as panchayat members, elect a sarpanch, who is the head of the gram panchayat.
+
+
+" /><TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 3) What is the role of the sarpanch in a gram panchayat?
+
+
+" /><TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The sarpanch is the head of the gram panchayat and is responsible for managing its affairs. The role of the sarpanch includes presiding over gram panchayat meetings, implementing decisions taken by the gram panchayat, supervising the work of other panchayat members and employees, and acting as a liaison between the gram panchayat and higher authorities.
+
+" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/item_grivence.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/grivence_category_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: "
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/grivence_fullname_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name: "
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/grivence_ward_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ward Number: "
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/grivence_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details: "
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/grivence_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/grivence_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time: "
+        android:textSize="14sp" />
+</LinearLayout>

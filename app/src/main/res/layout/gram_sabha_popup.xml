@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="@android:color/white"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:background="@color/bluedark"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:text="Gram-Sabha"
+            android:textColor="@android:color/white">
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="To involve in gram-sabha enter your voting card number.">
+    </TextView>
+
+    <EditText
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:background="@drawable/voter_bg"
+        android:hint="Enter Voting Card No.">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Next">
+
+    </Button>
+
+
+
+</LinearLayout>

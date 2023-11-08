@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.RulesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(1) The general meeting of a Gram Sabha one during the period commencing on the 15th day of May and ending with the 15th day of June and the other during the period commencing on the 15th day of November, and ending with the 15th day of December shall be held each year in the sabha area at a public place. The time and date of the general meetings shall be fixed by Block Development and Panchayat Officer. The extraordinary general meetings of Gram Sabha shall be held in the sabha area at a public place. The time and date of extraordinary general meeting shall be fixed by the Sarpanch]
+(2) A notice of at least fifteen clear days shall be given to the members of the Gram Sabha for holding a general meeting of the Gram Sabha.
+(3) (a) A notice of an ordinary general meetings of Gram Sabha shall state the nature of business to be transacted at the meeting.
+(b) A requisition for calling an extra-ordinary general meeting of a Gram Sabha and also a notice of such meeting shall state the purpose for which the meeting is being called.
+
+(4) A notice of a meeting of a Gram Sabha shall be published -
+(a) by affixing it at the office of the Gram Panchayat and other conspicuous places in the Sabha area; and
+
+(b) by making an announcement by beat of drum in the Sabha area on the day of issue of the notice under sub-rule (2) and also on the day preceding the meeting;
+
+Provided that when a meeting has been called by the Block Development and Panchayat Officer a copy of the notice shall also be affixed at the office of the Block Development and Panchayat Officer.
+(5) Any member of a Gram Sabha who desires to bring forward any resolution or wishes to ask any question at any meeting of the Gram Sabha shall give notice of his intention to do so to the Sarpanch, at least seven days before the meeting:
+Provided that the Sarpanch may, in his discretion, permit any question or the discussion of a resolution or transaction of any business for which no previous notice has been given.
+(6) No subject once finally disposed of by a Gram Sabha shall be reconsidered within three months of its disposal by the Gram Sabha.
+(7)(a) The Sarpanch may disallow the moving of discussion of any resolution or opposition which he considers to be beyond the scope of the Gram Sabha and in doing so, he shall record his reasons in writing.
+(b) All resolutions not disallowed by the Sarpanch shall be discussed and passed by a majority vote.
+"/>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>
